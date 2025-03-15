@@ -5,6 +5,12 @@ import os
 
 # Load thumbnail URLs (replace with actual list)
 # Sample thumbnail URL: https://images.premagic.com/txpybWj566Knv6SyqwjHNeD89U%3D%2F%2F240x240%2Fsmart%2Ffilters%3Aquality%2840%29%3Asharpen%28-0.2%29%3Astrip_icc%28%29%3Astrip_exif%28%29%2FD36wX4CIc2RzDMcR-zDKRPkaIoFzGCgZ5-thumb_6wINoQheX36VsuLe-b%27dGh1bWJfSkFZMDk0OTcuSlBH%27.JPG
+
+# I used the below JS snippet to get all the thumnails in the DOM
+# const images = [...document.querySelectorAll("img")]
+#   .map(img => `'${img.src}'`)
+#   .join(", ");
+# console.log(images);
 thumbnail_urls = []
 
 folder_name = "FOLDER_NAME"
