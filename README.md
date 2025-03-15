@@ -1,0 +1,1 @@
+# premagic-bulk-photo-downloader
